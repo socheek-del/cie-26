@@ -1,0 +1,22 @@
+2026-09-01T16:01:59.665+0700 [INFO]  Terraform version: 1.16.0
+2026-09-01T16:01:59.665+0700 [DEBUG] using github.com/hashicorp/go-tfe v1.108.0
+2026-09-01T16:01:59.665+0700 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-09-01T16:01:59.665+0700 [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-09-01T16:01:59.665+0700 [DEBUG] using github.com/zclconf/go-cty v1.18.1
+2026-09-01T16:01:59.665+0700 [INFO]  Go runtime version: go1.26.4
+2026-09-01T16:01:59.665+0700 [INFO]  CLI args: []string{"terraform", "init"}
+2026-09-01T16:01:59.666+0700 [DEBUG] Attempting to open CLI config file: /Users/thettun/.terraformrc
+2026-09-01T16:01:59.666+0700 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-09-01T16:01:59.666+0700 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-09-01T16:01:59.666+0700 [DEBUG] ignoring non-existing provider search directory /Users/thettun/.terraform.d/plugins
+2026-09-01T16:01:59.666+0700 [DEBUG] ignoring non-existing provider search directory /Users/thettun/Library/Application Support/io.terraform/plugins
+2026-09-01T16:01:59.666+0700 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2026-09-01T16:01:59.667+0700 [INFO]  CLI command args: []string{"init"}
+2026-09-01T16:02:00.684+0700 [DEBUG] checking for provisioner in "."
+2026-09-01T16:02:00.696+0700 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2026-09-01T16:02:00.712+0700 [DEBUG] Starting graph walk: walkInit
+2026-09-01T16:02:00.717+0700 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-09-01T16:02:04.422+0700 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/local/versions
+2026-09-01T16:02:04.461+0700 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2026-09-01T16:02:04.510+0700 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/azurerm/versions
+2026-09-01T16:02:04.550+0700 [DEBUG] GET https://registry.terraform.io/v1/providers/kreuzwerker/docker/versions

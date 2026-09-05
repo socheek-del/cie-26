@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  publicInstance1:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: 't2.micro'
+      AvailabilityZone: 'ap-southeast-1a'
+      ImageId: 'ami-0532913178263be11' # ubuntu
+      KeyName: 'keypair2026'
