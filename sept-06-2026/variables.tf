@@ -23,13 +23,13 @@ variable "counting_service_port" {
 }
 
 variable "cidr_block_vpc" {
-  default = "172.16.0.0/16" 
+  default = "172.16.0.0/16"
 }
 
 variable "cidr_block_subnet_1" {
-  default = "172.16.1.0/24" 
+  default = "172.16.1.0/24"
 }
 
 variable "cidr_block_subnet_2" {
-  default = "172.16.2.0/24" 
+  default = "172.16.2.0/24"
 }
